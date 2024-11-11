@@ -1,0 +1,313 @@
+body{
+    font-family: 'PT Sans', sans-serif;
+    background-color:rgba(128, 128, 128, 0.062);
+    margin:0;
+    color:black;
+    line-height: 1.6;
+}
+a{
+    text-decoration: none;
+    color:#fff;
+}
+.container {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    background-color: black; 
+    color: rgba(255, 255, 255, 0.884); 
+    height:40px;
+  
+}
+.container address, .container h3, .container nav { 
+    display: inline-block;
+    margin-right: 60px; /* Adjust spacing as needed */
+    padding-left:70px;
+    font-size: 15px;
+    font-style: normal;
+    
+}
+.social-icons { 
+    
+    display:flex;
+    gap: 2px;
+    justify-content:left;
+    padding:40px;
+} 
+.social-icons a{
+
+    text-decoration: none;
+    color:#fff;
+    font-size:20px;
+}
+.social-icons a:hover{
+
+    color:grey;
+}
+.material-icons{
+
+    display:flex;
+    gap: 10px;
+    justify-content:left;
+    padding-left: 10px;
+    font-size:25px;
+
+}
+/* .left-section,.right-section{ */
+
+    /* width:48%; */
+/* } */
+.boxes{
+
+    display:flex;
+    justify-content:space-between;
+    /* width:60%; */
+    
+    /* max-width:1200px; */
+    /* margin:50px auto; */
+    /* padding:20px; */
+}
+.left-section{
+    width:60%;
+    margin-left:5%;
+    height:40%;
+}
+.right-section{
+
+    width:25%;
+    margin-right:5%;
+    padding-right: 0%;
+}
+#book-free-trail{
+    background-color: black;
+    color:whitesmoke;
+    /* width:25%; */
+    /* margin-right:5%; */
+    width:100%;
+    text-align: center;
+    padding: 0%;
+    /* border-bottom: 10px dotted black; */
+}
+#book-free-trail h1{
+
+    font-weight: lighter ;
+    font-size:25px;
+    text-align: center;
+    padding-top: 5px;
+    color:yellow;
+
+}
+.container ul {
+    display: flex;
+    list-style-type: none;
+    margin:0;
+    padding:0;
+}
+
+.container ul li {
+    margin-right: 10px; /* Adjust spacing as needed */
+}
+
+/* Explanation:
+1].container { display: flex; }: This makes the container a flexbox, allowing elements inside to be aligned in a single row.
+2].container address, h3, nav { display: inline-block; margin-right: 20px; }: This ensures that the address, h3, and nav elements are treated as inline elements and space is added between them.
+3].container ul { display: flex; }: This ensures the list inside the nav is also displayed in a row. */
+
+.nav-container {
+
+    /* display: inline-block; */
+    width: 100%; /* Adjust as needed */
+    border-bottom: 3px solid rgb(0, 174, 255);
+    background-color: #fff;
+    top:0;
+    position:relative;
+
+}
+
+.nav-container ul {
+    display: inline-flex;  /* Flexbox to display items in a single row */
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    justify-content: space-around; /*Adjust to control spacing */
+}
+
+.nav-container li {
+    margin-right:20px; /* Adjust spacing between items */
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.nav-container li:hover{
+
+    text-decoration-line: underline;
+    text-decoration-color: #000;
+    text-decoration-style:solid 2px;
+}
+/* #free-trial{ */
+    /* background-color:#ffd700; */
+    /* color:#000; */
+    /* padding:10px 20px; */
+    /* padding-bottom: 0px; */
+    /* margin: 10px 20px; */
+    /* border-width: 100px; */
+    /* border-radius:30px; */
+    /* text-align:center; */
+/* } */
+
+.nav-container a {
+    text-decoration: none;
+    color: black; /* Adjust as needed */
+    padding: 5px 10px;
+}
+
+ .nav-container ul li:hover {
+    color:blue;
+    
+     /* Add hover effect */
+}
+#showcase{
+    background-color: rgba(0, 0, 0, 0.055);
+    height: 50px;
+    margin-top: 0;
+    padding-top: 10px;
+    padding-left: 90px;
+    padding-bottom: 0%;
+    color: rgba(128, 128, 128, 0.781);
+    font-size: 15px;
+}
+.content-container{
+    background-color:#fff;
+    color:#000000bb;
+    padding:20px;
+    padding-top:0;
+    margin-bottom:20px dotted black;
+    font-weight:lighter;
+    font-size:15px;
+    box-shadow:0 4px 6px rgba(0, 0, 0, 0.329);  
+    text-align: left; 
+    /* line-height: 25px; */
+}
+.content-container h2{
+
+    padding-top: 4px;
+   
+   
+}
+
+.contact-form input[type="text"],.contact-form input[type="email"],.contact-form input[type="tel"],.contact-form input[type="date"]{
+
+    width:90%;
+    padding:10px;
+    margin-bottom:20px;
+    border:solid 1px white;
+    border-radius:4px;
+    background-color: black;
+    color:#fff;
+}
+#buying{
+
+    display:contents;
+    justify-content:flex-start;
+    padding-top:0;
+    
+}
+
+#button-buying{
+
+    background-color:#ffd700;
+    color:#000;
+    padding:10px 20px;
+    font-size:18px;
+    /* border:solid; */
+    border-radius:25px;
+    text-align:center;
+    
+    /* display:inline-block; */
+    /* font-weight:bold; */
+    /* box-shadow:0 4px 6px rgba(0,0,0,0.1); */
+}
+#button-submit{
+
+    background-color:#ffd700;
+    color:#000;
+    padding:10px 120px;
+    font-size:18px;
+    border:none;
+    border-radius:25px;
+    text-align:center;
+    margin-bottom:20px;
+}
+#footer-button{
+
+    background-color:#ffd700;
+    color:#000;
+    padding:10px 120px;
+    font-size:18px;
+    border:1px solid black;
+    border-radius:25px;
+    text-align:center;
+    margin-bottom:20px;
+}
+.footer{
+  
+    max-width: 100%;
+    text-align: center;
+    margin:0;
+    padding:0;
+    padding-bottom:26px;
+    border-top: 5px solid rgb(0, 174, 255);
+    background-image: url(image2.jpg);
+    background-repeat: no-repeat;
+    background-size:cover ;
+    position:relative;
+    color: white;
+
+}
+footer .footer-cols{
+
+    /* fr is size provided */
+    display:grid;
+    grid-gap:40px;
+    grid-template-columns:repeat(4,2fr);
+    padding:2rem;
+    padding-right: 10px;
+    text-align: left; 
+    font-size: 17px;
+}
+footer .footer-cols ul{
+
+    list-style-type: none;
+}
+footer .footer-cols ul li:first-child{
+
+    color:#ffd700;
+    font-weight:500;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+#footer-form{
+    width:90%;
+    padding:10px;
+    margin-bottom:20px;
+    border:solid 1px white;
+    border-radius:4px;
+    background-color: rgba(0, 0, 0, 0.055);
+}
+
+.footer-bottom {
+
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.274); 
+    color: rgba(255, 255, 255, 0.884); 
+    padding-left: 70px;
+    padding-right: 20%;
+}
+.footer-end{
+
+    text-align: left; 
+    font-size: 17px;
+    padding-left:70px; 
+    padding-right:20px;
+
+}
